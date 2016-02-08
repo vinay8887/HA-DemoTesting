@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="1.432048">
+<testcase classname="Api Test Suite" name="test case to query the nearest station to Austin which is part of ChargePoint Network" time="1.248546">
+<system-out><![CDATA[Given I input my apiKey as "4bubLC8haE5I4YEgPjfxcyc1dqWbgOGoNiEqB3Ek".......passed
+Given I search for nearest station to "Austin" which is part of "ChargePoint Network".passed
+Then I check for "HYATT AUSTIN" and get its stationId.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Api Test Suite" name="Verify Hyatt's Street Address" time="0.183502">
+<system-out><![CDATA[Then I verify HYATT's street address as "208 Barton Springs Rd, Austin, TX, USA, 78704" using its stationId.passed
+]]></system-out>
+</testcase>
+</testsuite>
